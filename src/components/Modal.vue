@@ -2,7 +2,7 @@
   <div class="outerWrapper">
       <div class="innerWrapper">
           <div class="photo">
-            <img :src="photo">
+            <img class="photo2" :src="photo">
           </div>
           <div class="description">
               <h2 class="title">{{ title }}</h2>
@@ -125,6 +125,9 @@ export default {
 
     .title {
         color: #2F4F5B;
+    }
+    .photo2 {
+        max-height: 320px;
     }
 
 </style>
