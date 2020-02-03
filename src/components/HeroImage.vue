@@ -21,6 +21,10 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 80% 0%;
+
+    @media(min-width:768px){
+        justify-content: center;
+    }
 }
 .heroWrapper::after{
     content: '';
